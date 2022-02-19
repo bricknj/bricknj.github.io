@@ -1,2 +1,17 @@
-/* This stylesheet contains custom styling for Nick Brennan (bricknj)'s website.
+/* This stylesheet contains custom styling for Nick Brennan (bricknj)'s website. 
+*/
 
+ul {
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none; /* Can use site-wide if included under a * {  } to remove all link underlines */
+
+}
