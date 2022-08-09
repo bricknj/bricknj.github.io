@@ -2,7 +2,7 @@
 */
 
 ul {
-
+    color:green
 }
 
 ul li {
@@ -13,5 +13,4 @@ ul li {
 ul li a {
     display: block;
     text-decoration: none; /* Can use site-wide if included under a * {  } to remove all link underlines */
-
 }
