@@ -14,3 +14,7 @@ ul li a {
     display: block;
     text-decoration: none; /* Can use site-wide if included under a * {  } to remove all link underlines */
 }
+
+nav h1 {
+    color: white
+}
