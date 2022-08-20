@@ -1,22 +1,23 @@
 /* This stylesheet contains custom styling for Nick Brennan (bricknj)'s website. 
 */
-
 ul {
     color: green
 }
-
 ul li {
     list-style: none;
     display: inline-block;
 }
-
 ul li a {
     display: block;
     text-decoration: none; /* Can use site-wide if included under a * {  } to remove all link underlines */
 }
-
 nav h1 {
     color: white
+}
+
+/* about section image css */
+.imageAboutPage{
+    width: 100%;
 }
 
 /* hero background image */
@@ -40,4 +41,24 @@ nav h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000
+}
+.servicesText:hover {
+    border: 1px solid #008000;
 }
