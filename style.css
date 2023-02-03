@@ -1,8 +1,12 @@
 /* This stylesheet contains custom styling for Nick Brennan (bricknj)'s website. 
 */
 
+h4 {
+    font-style: italic;
+}
+
 ul {
-    color:green
+    color:green;
 }
 
 ul li {
