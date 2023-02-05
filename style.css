@@ -1,6 +1,11 @@
 /* This stylesheet contains custom styling for Nick Brennan (bricknj)'s website. 
 */
 
+a {
+    text-decoration: none;
+    color: red;
+}
+
 h2 {
     color: white;
     background-color: rgb(117, 116, 116);
@@ -10,16 +15,12 @@ h4 {
     font-style: italic;
 }
 
-ul {
-    color:green;
-}
-
-ul li {
+nav ul li {
     list-style: none;
     display: inline-block;
 }
 
 ul li a {
     display: block;
-    text-decoration: none; /* Can use site-wide if included under a * {  } to remove all link underlines */
+   /* text-decoration: none; */ /* Can use site-wide if included under a * {  } to remove all link underlines */
 }
