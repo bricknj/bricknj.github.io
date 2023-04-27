@@ -2,9 +2,6 @@
 */
 
 /* major style controls */
-ul {
-    color: green
-}
 ul li {
     list-style: none;
     display: inline-block;
