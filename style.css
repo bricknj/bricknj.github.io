@@ -10,7 +10,10 @@ ul li a {
     display: block;
     text-decoration: none; /* Can use site-wide if included under a * {  } to remove all link underlines */
 }
-nav h1 {
+nav a {
+    color: white
+}
+.nav-link {
     color: white
 }
 
@@ -25,7 +28,7 @@ nav h1 {
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #3b3b3b;
 }
 
 /* about section image css */
@@ -70,10 +73,10 @@ nav h1 {
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000
+    color: #307ff5;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #307ff5;
 }
 
 /* social media icons styling */
@@ -82,14 +85,15 @@ nav h1 {
     cursor: pointer;
 }
 .bi-linkedin:hover,.bi-github:hover {
-    color: #008000;
+    color: #307ff5;
 }
-.bi {
-    color: #000000;
+.bi-linkedin,.bi-github {
+    color: #ffffff;
 }
 
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: #3b3b3b;
     text-align: center;
+    color: #ffffff;
 }
