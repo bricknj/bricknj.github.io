@@ -59,12 +59,12 @@ nav a {
     color: white;
 }
 
-/* services section css */
-.servicesText.card {
+/* skills section css */
+.skillsText.card {
     height: 280px;
     cursor: pointer;
 }
-.servicesIcon {
+.skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
@@ -72,11 +72,16 @@ nav a {
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
+.card:hover .skillsIcon {
     color: #307ff5;
 }
-.servicesText:hover {
+.skillsText:hover {
     border: 1px solid #307ff5;
+}
+
+/* portfolio */
+.logo {
+    height: 100%;
 }
 
 /* social media icons styling */
@@ -84,7 +89,7 @@ nav a {
     font-size: 36px;
     cursor: pointer;
 }
-.bi-linkedin:hover,.bi-github:hover {
+.bi-linkedin:hover,.bi-github:hover,.grabcad:hover {
     color: #307ff5;
 }
 .bi-linkedin,.bi-github {
