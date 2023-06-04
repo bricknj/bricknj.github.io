@@ -7,145 +7,344 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom JavaScript -->
+        <link rel="src" href="script.js">
 
         <title>Nick Brennan | Mechanical Design Engineer</title>
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-            <ul>
-                <li>
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="Nick_Brennan_Resume.pdf">Resume</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-sm fixed-top navbarScroll">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Nick</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nick_Brennan_Resume.pdf">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>            
         </nav>
-        <div class="container">
-            <h1>Nick Brennan | Mechanical Design Engineer</h1>
-        </div>
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                A mechanical design engineer with significant experience across
-                robotics, consumer electronics, and biomedical product development.
-                Strengths include advanced SolidWorks, design of electromechanical
-                systems, and a drive to learn new skills, especially in electronics 
-                and controls.
-            </p>
-        </div>
 
-        <div class="container">
-            <h2>Professional Experience</h2>
-            <div>
-                <h3>
-                    <a href="http://www.nklabs.com">NK Labs</a>
-                    | Cambridge, MA
-                </h3>                
-                <h4>Mechanical Engineer & Business Developer | June 2017 - Present</h4>
-                <p>
-                    Ideated, designed, built, and tested a wide range of mechanical
-                    devices and systems across many industries.
-                    Most work was on the early end of prototyping and product development,
-                    such as robotic proof-of-concepts and novel sensor development.
-                </p>
+<!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Nick Brennan</h2>
+                    <p class="hero_desc">Mechanical Design Engineer</p>
+                </div>
             </div>
-            <div>
-                <h3>
-                    <a href="https://www.boston-engineering.com/">Boston Engineering</a>
-                    | Waltham, MA
-                </h3>
-                <h4>Advanced Systems Mechanical Engineering Co-op | January - June 2016</h4>
-                <p>
-                    Worked on several automated systems in the defense sector. Designed, 
-                    prototyped, and created drawings for multiple AUV robotic subsystems.
-                </p>
-            </div>
-            <div>
-                <h3>
-                    <a href="https://www.farmpd.com/">Farm Design</a>
-                    | Hollis, NH
-                </h3>
-                <h4>Mechanical Engineering Co-op | January - June 2015</h4>
-                <p>
-                    Developed products and prototypes in the medical device and biomedical 
-                    technology industries. Gained exposure to FEA through ANSYS and obtained
-                    SolidWorks CSWP and Advanced Surfacing certifications.
-                </p>
-            </div>
-            <div>
-                <h3>
-                    <a href="https://www.lemaitre.com/">LeMaite Vascular</a>
-                    | Burlington, MA
-                </h3>
-                <h4>Research & Development Co-op | January - June 2014</h4>
-                <p>
-                    Designed several test fixtures for medical device product evaluation
-                    and to supplement internal manufacturing efforts. 
-                    Performed methodical testing and documentation of results.
-                    Worked in a small R&D team within a mid-size medical device company.
-                </p>
-            </div>
-            
         </div>
-        
+    </section>
+
+<!-- about section -->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/Nicholas_Brennan.jpg" class="imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row-mt-3">
+                        <p>
+                            I am a mechanical design engineer with significant experience across
+                            robotics, consumer electronics, and medical product development.
+                            Strengths include advanced SolidWorks, design of electromechanical
+                            systems, and a drive to learn new skills, especially in electronics 
+                            and controls.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- skills section -->    
+    <section id="skills">
         <div class="container">
-            <div>
-                <h2>Industries and Applications</h2>
-                <div>
-                    <li>Robotics and Automation</li>
-                    <li>Consumer Electronics</li>
-                    <li>Biomedical Devices</li>
-                    <li>Optics</li>
-                    <li>Scientific Instrumentation</li>
-                    <li>High-Vacuum and Cryogenics</li>
-                    <li>Defense</li>
-                    <li>Aerospace</li>
+            <h1 class="text-center">High-Level Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="bi skillsIcon bi-pencil"></i>
+                            <h4 class="card-title mt-3">Conceptual & Detail Design</h4>
+                            <p class="card-text mt-3">
+                                I have engaged in many design projects at the very early, idea-on-a-napkin 
+                                stage and carried them through to production drawing generation. Most 
+                                projects were done in SolidWorks, though I also have experience with 
+                                CREO Parametric and OnShape. I was reponsible for concept ideation, 
+                                material selection, COTS part sourcing, vendor contacts, etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="bi skillsIcon bi-wrench-adjustable"></i>
+                            <h4 class="card-title mt-3">Prototyping</h4>
+                            <p class="card-text mt-3">
+                                I have developed prototypes of varying complexity: from specific 
+                                conceptual, one-off demos to explore a given mechanism, material, or 
+                                process, to highly-detailed, functional full systems. I have experience 
+                                operating 3D printers, laser cutters, an OMAX water jet cutter, and have 
+                                led engagement with many manufacturing vendors, both domestic and abroad 
+                                for part procurement.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="bi skillsIcon bi-building-gear"></i>
+                            <h4 class="card-title mt-3">Design for Manufacturing</h4>
+                            <p class="card-text mt-3">
+                                Starting from my 8+ years in the FIRST Robotics Competition community, I have accrued a 
+                                significant amount of first-hand machining experience. That, coupled with the invaluable 
+                                discussions and feedback I have received from professional machinists and more senior 
+                                engineers, has all fed into my design for manufacturing approach. This has given me insight into
+                                effective ways to optimize features for machinability, keep part cost down, and streamline
+                                production timelines.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="bi skillsIcon bi-briefcase"></i>
+                            <h4 class="card-title mt-3">Business Development</h4>
+                            <p class="card-text mt-3">
+                                I am the main point of contact with potential clients and new leads at NK Labs. I evaluate 
+                                how each project fits with NK Labs capabilities, timelines, and feasibility. Then, I coordinate
+                                detail meetings with relevant staff, and draw up proposals, quotes, and grant applications.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- portfolio section -->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top logo" src="images/logos/nk-logo.gif" alt="NK Labs">
+                        <div class="card-body">
+                            <h2 class="card-title">NK Labs</h2>
+                            <h4 class="card-title">2017 - Present</h4>
+                            <p class="card-text">
+                                Designed parts and assemblies for a variety of industries, 
+                                including robotics, consumer electronics, and cryogenics.
+                                Portfolio pieces available in person.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://nklabs.com" class="btn btn-success">NK Labs Website</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-            </div>
-        </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bike_light_mount_complete.jpg" alt="Bicycle Light Mount" style="width: 100%;">
+                        <div class="card-body">
+                            <h2 class="card-title">Bicycle Light Mount</h2>
+                            <h4 class="card-title">2021</h4>
+                            <p class="card-text">
+                                I bought a new headlight for my bike, and it was great. Then I bought a new bike, and it was also 
+                                great. Putting the two together - not great. The mount that comes with the light cannot fit on 
+                                31.8mm handlebars. I was devastated.
 
-        <section>
-            <div class="container">
-                <h2>Education</h2>
-                <h3>Northeastern University | Boston, MA</h3>
-                <h4>Bachelor of Science in Mechanical Engineering, Minor in 
-                    Biomechanical Engineering | 2017</h4>
-            </div>
-        </section>
+                                So I spent way too much time designing this modular mount. My light is held securely, but it is still 
+                                easily removable. The top parts are also removable, so attachments for other lights or other items 
+                                can be designed to work with the bar-clamping parts in the future. Here's to many well-lit rides!
+                                </p>
+                            <div class="text-center">
+                                <a href="https://grabcad.com/library/bicycle-light-mount-for-dropbars-1" class="btn btn-success">GrabCAD Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- contact section -->
-        <section>
-            <div class="container"> 
-                <h2>Contact</h2>
-                <div>
-                    <h3>Nick Brennan</h3>
-                    <p>Email: 
-                        <a href="nbrennan14@gmail.com">nbrennan14@gmail.com</a>
-                    </p>
-                    <p>Phone: +1 973.479.5181</p>
-                    <p>
-                        <a href="https://www.linkedin.com/in/nj-brennan/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </p>
-                    <p>
-                        <a href="https://grabcad.com/nick.b-71/models">GrabCAD</a>
-                    </p>
-                    <p>
-                        <a href="https://github.com/bricknj">GitHub</a>
-                    </p>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!--<img class="card-img-top" src="images/portfolioImage1.jpg" alt="Capstone Project" style="width: 100%;"> -->
+                        <div class="card-body">
+                            <h2 class="card-title">Northeastern Senior Capstone Design Project</h2>
+                            <h4 class="card-title">2016 - 2017</h4>
+                            <p class="card-text">
+                                My project was to develop an automated control system to map the 
+                                material properties of cartilage with Dr. Sandra Shefelbine at Northeastern.
+                                As the team lead, I coordinated the 5-person team's tasks and 
+                                responsibilities over the 6-month timeline. On the technical 
+                                side, I supported motor control development, designed an op-amp circuit, 
+                                and continued the project as independent research to improve processing 
+                                speed during my final semester.
+                            </p>
+                            <div class="text-center">
+                                <a href="Mapping_Cartilage_Final_Presentation.pdf" class="btn btn-success">Final Presentation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top logo" src="images/logos/bec-logo.svg" alt="Boston Engineering" style="background-color: rgb(202, 16, 16);">
+                        <div class="card-body">
+                            <h2 class="card-title">Boston Engineering</h2>
+                            <h4 class="card-title">2016</h4>
+                            <p class="card-text">
+                                Worked on multiple design, assembly, and testing projects in the defense sector.
+                                Portfolio pieces available in person.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://www.boston-engineering.com/" class="btn btn-success">Boston Engineering Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top logo" src="images/logos/farm-logo.svg" alt="Farm Design">
+                        <div class="card-body">
+                            <h2 class="card-title">Farm Design</h2>
+                            <h4 class="card-title">2015</h4>
+                            <p class="card-text">
+                                Created a number of designs and prototypes in the biomedical space.
+                                Portfolio pieces available in person.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://www.farmpd.com/" class="btn btn-success">Farm Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!--<img class="card-img-top" src="images/portfolioImage1.jpg" alt="Capstone Project" style="width: 100%;"> -->
+                        <div class="card-body">
+                            <h2 class="card-title">Two-Source Diffusion Simulation</h2>
+                            <h4 class="card-title">Summer 2014</h4>
+                            <p class="card-text">
+                                My partner and I chose to pursue this task as our final project for 
+                                our International Biomedical Optics course in Taipei, Taiwan. The 
+                                purpose of this graduate-level research was to find a relationship 
+                                between the concentration of blood in bone and its effect on detected 
+                                power. We used MATLAB and MCML modeling to simulate various conditions 
+                                including ranges of wavelengths, blood concentrations, and distances 
+                                to detectors. Ultimately, we found that increasing blood concentration 
+                                has a large effect on the increase in detected power.
+                            </p>
+                            <div class="text-center">
+                                <a href="Two_Source_Diffusion_Presentation.pdf" class="btn btn-success">Final Presentation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top logo" src="images/logos/lemaitre-logo.png" alt="LeMaitre">
+                        <div class="card-body">
+                            <h2 class="card-title">LeMaitre Vascular</h2>
+                            <h4 class="card-title">2014</h4>
+                            <p class="card-text">
+                                Supported research and development efforts and manufacturing of various
+                                product lines by designing fixtures, conducting testing, and documenting results.
+                                Portfolio pieces available in person.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://www.lemaitre.com/" class="btn btn-success">LeMaitre Website</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+<!-- contact section -->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- can add map or picture here -->
+                </div>
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" name="text" id="comment" rows="5" placeholder="Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- footer section -->
+    <section id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <a href="https://www.linkedin.com/in/nj-brennan/" target="_blank"><i class="bi social-icons bi-linkedin"></i></a>
+            <a href="https://grabcad.com/nick.b-71" target="_blank"><i class="social-icons grabcad"></i><img src="images/grabcad.svg" alt="grabcad"></a>
+            <a href="https://github.com/bricknj" target="_blank"><i class="bi social-icons bi-github"></i></a>
+            
+        </div>
+    </section>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         
+<!-- load javascript after loading all html content -->
+    <script src="script.js"></script>
 
-
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
