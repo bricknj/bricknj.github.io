@@ -5,6 +5,9 @@ Useful sites:
 https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/
 
 
+TO USE: 
+https://stackoverflow.com/questions/36387676/is-it-possible-to-reuse-html-like-a-template-on-multiple-pages
+
 
 PAGES
 - Index
