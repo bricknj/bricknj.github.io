@@ -26,7 +26,7 @@ nav a {
     padding-bottom: 4rem;
 }
 
-/* display background color black on navbar scroll */
+/* display background color on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: #3b3b3b;
 }
@@ -65,7 +65,7 @@ nav a {
 
 /* skills section css */
 .skillsText.card {
-    height: 380px;
+    height: 340px;
     cursor: pointer;
 }
 .skillsIcon {
