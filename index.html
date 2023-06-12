@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <!-- in future, try to use something like https://stackoverflow.com/questions/36387676/is-it-possible-to-reuse-html-like-a-template-on-multiple-pages -->
-
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,22 +65,21 @@
     <section id="about">
         <div class="container mt-4 pt-4">
             <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
+            <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-lg-4">
                     <img src="images/nick-brennan.jpg" class="imageAboutPage" alt="Nick Brennan">
                 </div>
 
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="row-mt-3">
                         <p id="about-me">
-                            <br>
                             I am a mechanical design engineer with significant experience across
                             robotics, consumer electronics, and medical product development.
                             Strengths include advanced SolidWorks, design of electromechanical
                             systems, and a drive to learn new skills, especially in electronics 
                             and controls.
-                            <br>
-                            <br>
+                            <br />
+                            <br />
                             I graduated from Northeastern University in 2017 with a Bachelor's 
                             degree in Mechanical Engineering and a minor in Biomechanical Engineering.
                             Now, I work as a mechanical engineer and business developer at NK Labs, 
@@ -106,11 +103,12 @@
                             <i class="bi skillsIcon bi-pencil"></i>
                             <h4 class="card-title mt-3">Conceptual & Detail Design</h4>
                             <p class="card-text mt-3">
-                                I have engaged in many design projects at the very early, idea-on-a-napkin 
-                                stage and carried them through to production drawing generation. Most 
-                                projects were done in SolidWorks, though I also have experience with 
-                                CREO Parametric and OnShape. I was reponsible for concept ideation, 
-                                material selection, COTS part sourcing, vendor contacts, etc.
+                                I have engaged in many design projects at the very early, idea-on-a-
+                                napkin stage and carried them through to production drawing 
+                                generation. Most projects were done in SolidWorks, though I also 
+                                have experience in CREO and OnShape. I was reponsible for concept 
+                                ideation, material and finish selection, COTS part sourcing, drawings, 
+                                vendor contacts, etc.
                             </p>
                         </div>
                     </div>
@@ -148,6 +146,7 @@
                         </div>
                     </div>
                 </div>
+            <div class="w-100"></div> <!-- Creates equal-width columns that span multiple rows -->
                 <div class="col-lg-4 mt-4">
                     <div class="card skillsText">
                         <div class="card-body">
@@ -193,13 +192,12 @@
                         </div>
                     </div>  
                 </div>
-
             </div>
         </div>
     </section>
     <!-- professional experience section -->
     <!--
-    <section>
+    <section id="prof-ex">
         
             <div class="col-lg-4 mt-4">
                 <div class="card">
@@ -283,9 +281,40 @@
                 <br />
                 <br />
                 Additional personal design projects projects can be found on my 
-                <a href="https://grabcad.com/nick.b-71">GrabCAD</a> page.
+                <a href="https://grabcad.com/nick.b-71">GrabCAD</a> and 
+                <a href="https://www.linkedin.com/in/nj-brennan/">LinkedIn</a> pages.
             </p>
             <div class="row">
+                <!-- Personal Website -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!--<img class="card-img-top" src="" alt="Personal Website" style="width: 100%;">
+                        -->
+                        <div class="card-body">
+                            <h2 class="card-title">Personal Website</h2>
+                            <h4 class="card-title">2023 | Personal Project</h4>
+                            <h4 class="card-subtitle">(HTML, CSS, Git)</h4>
+                            <p class="card-text">
+                                I had made a Wix website in college for sharing portfolio pieces. When 
+                                I revisited it several years later, there were a lot of errors as the 
+                                platform had changed while I was not maintaining the site. Facing this 
+                                hurdle, naturally, the best course of action was to make a new website 
+                                from scratch, without having previous experience in HTML and CSS.
+                                <br>
+                                <br>
+                                My site is hosted on Github Pages, so this also gave me a reason to
+                                practice using Git, which I have seldom needed in my mechanical 
+                                career thus far. Though I use Windows daily, I took this opportunity 
+                                to familiarize myself with navigating Linux. I ran everything on Ubuntu 
+                                via Windows Subsystem for Linux (WSL). 
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/bricknj/bricknj.github.io" class="btn btn-success">Project Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Bicycle Light Mount -->
                 <div class="col-lg-4 mt-4">
                     <div class="card">
@@ -293,17 +322,21 @@
                         <div class="card-body">
                             <h2 class="card-title">Bicycle Light Mount</h2>
                             <h4 class="card-title">2021 | Personal Project</h4>
+                            <h4 class="card-subtitle">(Onshape, FDM Printing)</h4>
                             <p class="card-text">
                                 I bought a new headlight for my bike, and it was great. Then I 
                                 bought a new bike, and it was also great. Putting the two together 
                                 - not great. The mount that comes with the light cannot fit on 
                                 31.8mm handlebars. I was devastated.
                                 <br />
-                                So I spent way too much time designing this modular mount in Onshape. 
-                                My light is held securely, but it is still easily removable. The upper 
-                                parts are also removable, so attachments for other lights or other 
-                                items can be designed to work with the bar-clamping parts in the 
-                                future. Here's to many well-lit rides!
+                                <br />
+                                So I spent way too much time designing this modular mount in Onshape.
+                                I printed the parts on a Markforged FDM printer for high-strength, as
+                                these parts could see a lot of wear and tear on my bike. My light is 
+                                held securely, but it is still easily removable. The upper parts are 
+                                also removable, so attachments for other lights or other items can be 
+                                designed to work with the bar-clamping parts in the future. Here's to 
+                                many well-lit rides!
                             </p>
                             <div class="text-center">
                                 <a href="https://grabcad.com/library/bicycle-light-mount-for-dropbars-1" class="btn btn-success">Project Information</a>
@@ -319,13 +352,13 @@
                         <div class="card-body">
                             <h2 class="card-title">Headphone Mount</h2>
                             <h4 class="card-title">2021 | Personal Project</h4>
+                            <h4 class="card-subtitle">(SolidWorks, SLA Printing)</h4>
                             <p class="card-text">
                                 I listen to a lot of music throughout the day, but, on the occasions
                                 that I do take off my headphones, I needed a place to put them. My
                                 office desk is frequently an active working environment, so I
                                 designed this mount which could be bolted onto my workspace. I ended
                                 up printing a mating part which hooks onto my cubicle wall.
-
                             </p>
                             <div class="text-center">
                                 <a href="https://grabcad.com/library/headphone-mount-1" class="btn btn-success">Project Information</a>
@@ -341,6 +374,7 @@
                         <div class="card-body">
                             <h2 class="card-title">Senior Capstone Design Project</h2>
                             <h4 class="card-title">2016 - 2017 | Northeastern</h4>
+                            <h4 class="card-subtitle">(Arduino, Asana, Circuits, MATLAB)</h4>
                             <p class="card-text">
                                 My project was to develop an automated control system to map the 
                                 material properties of cartilage with Dr. Sandra Shefelbine at Northeastern.
@@ -364,12 +398,14 @@
                         <div class="card-body">
                             <h2 class="card-title">Two-Source Diffusion Simulation</h2>
                             <h4 class="card-title">Summer 2014 | Northeastern</h4>
+                            <h4 class="card-subtitle">(MATLAB)</h4>
                             <p class="card-text">
                                 My partner and I chose to pursue this task as our final project for 
-                                our International Biomedical Optics course in Taipei, Taiwan. The 
-                                purpose of this graduate-level research was to find a relationship 
-                                between the concentration of blood in bone and its effect on detected 
-                                power. We used MATLAB and MCML modeling to simulate various conditions 
+                                our Biomedical Optics course in Taipei, Taiwan. The purpose of this 
+                                graduate-level research was to find a relationship between the 
+                                concentration of blood in bone and its effect on detected power as 
+                                light penetrated through our two-layer model of skin and bone. We 
+                                used MATLAB and MCML modeling to simulate various conditions, 
                                 including ranges of wavelengths, blood concentrations, and distances 
                                 to detectors. Ultimately, we found that increasing blood concentration 
                                 has a large effect on the increase in detected power.
@@ -388,11 +424,7 @@
     <section id="contact">
         <div class="container mt-3 contactContent">
             <h1 class="text-center">Contact</h1>
-
-            <div class="row mt-4">
-                <div class="col-lg-6">
-                    <!-- can add map or picture here -->
-                </div>
+            <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <!-- form fields -->
                     <form>
@@ -406,6 +438,7 @@
                     <button type="button" class="btn btn-success mt-3">Contact Me</button>
                 </div>
             </div>
+            
         </div>
     </section>
     <!-- footer section -->
