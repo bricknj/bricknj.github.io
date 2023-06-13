@@ -17,13 +17,19 @@ nav a {
     color: white
 }
 
-/* spacing on all sections */
+/* sections */
 #about, #skills, #portfolio, #contact {
-  /*  margin-top: 4rem; */
-    padding-top: 4rem; 
+    padding-top: 2rem; 
 }
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+#footer {
+    background-color: #3b3b3b;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* display background color on navbar scroll */
@@ -59,18 +65,14 @@ nav a {
     color: white;
 }
 
-/* #about-me {
-    padding: 100px 0;
-} */
-
 /* skills section css */
 .skillsText.card {
-    height: 340px;
+    /* height: 460px; */
     cursor: pointer;
 }
 .skillsIcon {
     font-size: 36px;
-    text-align: center;
+    justify-content: center; /* unsure why this doesn't center the images */
     width: 100%;
 }
 .card-title {
@@ -96,17 +98,11 @@ nav a {
 .social-icons {
     font-size: 36px;
     cursor: pointer;
+    padding-left: 1rem;
 }
 .bi-linkedin:hover,.bi-github:hover,.grabcad:hover {
     color: #307ff5;
 }
-.bi-linkedin,.bi-github {
-    color: #ffffff;
-}
-
-/* footer styling */
-#footer {
-    background-color: #3b3b3b;
-    text-align: center;
+.bi-linkedin,.bi-github,.grabcad{
     color: #ffffff;
 }
